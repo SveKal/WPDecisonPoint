@@ -1,3 +1,7 @@
+import { WebPartContext } from "@microsoft/sp-webpart-base";
+
 export interface IWpDecisionPointProps {
-  description: string;
+  context: WebPartContext;
+  currentSiteUrl: string;
+  listName: any;
 }
